@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CS8602: 解引用可能出现空引用。
+dotnet_diagnostic.CS8602.severity = none
+
+# IDE0320: 使匿名函数成为静态函数
+dotnet_diagnostic.IDE0320.severity = none
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = none
